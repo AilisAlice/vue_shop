@@ -3,6 +3,7 @@ module.exports = {
   env: {
     node: true
   },
+  ignorePatterns: ["**/*.js","**/*.vue", "node_modules/"],
   'extends': [
     'plugin:vue/essential',
     '@vue/standard'
